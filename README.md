@@ -1,4 +1,4 @@
-This is a [Energysolutionbd.net](https://Energysolutionbd.net/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project was initialized for re-developing of the existing [ENERGYSOLUTIONBD.NET](https://energysolutionbd.net/) website using the nextjs/tailwindcss framework.
 
 ## Getting Started
 
