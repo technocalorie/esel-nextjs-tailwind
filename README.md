@@ -1,4 +1,4 @@
-This project was initialized for re-development of the existing [ENERGYSOLUTIONBD.NET](https://energysolutionbd.net/) website using the nextjs/tailwindcss framework.
+This project was initialized for re-development of the existing [ENERGYSOLUTIONBD.NET](https://energysolutionbd.net/) website using the nextjs/tailwindcss* framework.
 
 ## Getting Started
 
