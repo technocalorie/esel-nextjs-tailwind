@@ -1,8 +1,7 @@
 import React from 'react'
 import Image from "next/image";
-import Link from 'next/link';
-// import { useRouter } from 'next/router';
-// import Link from './ActiveLink';
+// import Link from 'next/link' !dont need it because we are using Custom "AcitveLink.js" 
+import Link from './ActiveLink';
 
 // let btn = document.querySelector('mobile-menu-button');
 // let menu = document.querySelector('.mobile-menu');
@@ -33,22 +32,22 @@ const Navbar = () => {
             {/* NavItem */}
             <div className="flex items-center p-2">
             <div className="hidden md:flex ml-8 hover:text-gray-500">
-                <Link href="/portfolio">
+                <Link activeClassName="text-gray-500" href="/portfolio">
                 <a>Portfolio</a>
                 </Link>
             </div>
             <div className="hidden md:flex ml-8 hover:text-gray-500">
-                <Link href="/contact">
+                <Link activeClassName="text-blue-700" href="/contact">
                 <a>Contact</a>
                 </Link>
             </div>
             <div className="hidden md:flex ml-8 hover:text-gray-500">
-                <Link href="/partners">
+                <Link activeClassName="text-gray-500" href="/partners">
                 <a>Partners</a>
                 </Link>
             </div>
             <div className="hidden md:flex ml-8 hover:text-gray-500">
-                <Link href="/about">
+                <Link activeClassName="text-gray-500" href="/about">
                 <a>About</a>
                 </Link>
             </div>
